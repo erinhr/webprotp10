@@ -1,0 +1,203 @@
+/* Global styles */
+body {
+  font-family: "Nunito Sans";
+  background: url(../img/bg.jpg);
+  background-size: cover;
+  color: #333;
+  margin: 0;
+  padding: 50px;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: #840448;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Henny Penny";
+}
+
+/* Layout styling */
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+}
+
+/* Table styles */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #000;
+  background-color: #fff;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+table th {
+  background-color: #ff8ccf;
+  color: #333;
+}
+
+table tr:hover {
+  background-color: #ffdafa;
+  text-decoration: none;
+}
+
+/* Form styles */
+form {
+  margin-top: 20px;
+}
+
+form label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+
+form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Tombol Add dan Delete */
+.btn {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-add {
+  display: inline-block;
+  background-color: #ff9bde;
+  color: white;
+}
+
+.btn-add:hover {
+  background-color: #d821b4;
+  text-decoration: none;
+}
+
+.btn-delete {
+  display: inline-block;
+  background-color: #ff9bde;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #c82333;
+  text-decoration: none;
+}
+
+.btn-delete:active {
+  background-color: #b71c1c;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Styles for Create Form */
+.create-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.create-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.create-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-container label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.create-container input[type="text"],
+.create-container input[type="number"],
+.create-container textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  width: calc(100% - 20px);
+}
+
+.create-container textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+.create-container button {
+  background-color: #ff8ccf;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.create-container button:hover {
+  background-color: #d821b4;
+}
+
+.create-container .back-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.create-container .back-link a {
+  color: #d821b4;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.create-container .back-link a:hover {
+  text-decoration: underline;
+}
